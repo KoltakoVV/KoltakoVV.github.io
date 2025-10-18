@@ -308,3 +308,17 @@ a {
 .footer-tel a:hover {
     color:#D52027;
 }
+
+span {
+    padding: 20px 40px;
+    margin: 0px 40px;
+    font-size: 19px;
+    width: 100px;
+    background-color: #F9F9F9;
+    color:#141024;
+    border-radius: 5px;
+}
+
+span a {
+    color:#141024;
+}
