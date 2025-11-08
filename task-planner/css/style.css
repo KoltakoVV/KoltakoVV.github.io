@@ -184,7 +184,7 @@ header {
 }
 @media (min-width: 1024px) {
   .container {
-    max-width: 1000px;
+    max-width: 1140px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -713,4 +713,5 @@ footer {
     color: var(--text-color-white);
     opacity: 0.8;
 }
+
 
