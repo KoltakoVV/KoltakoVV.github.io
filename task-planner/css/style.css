@@ -706,5 +706,9 @@ footer {
 .footer-nav-active {
     color: var(--text-color-orange);
     font-weight: bold;
+}
 
+.footer-nav-item {
+    color: var(--text-color-white);
+    opacity: 0.8;
 }
