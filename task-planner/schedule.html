@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Task Planner - Расписание</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="container">
+                <nav class="flex">
+                    <div class="brand">
+                        <a href="index.html" class="logo">
+                            <i class="fas fa-tasks"></i>
+                            <span>Student Task Planner</span>
+                        </a>
+                    </div>
+                    <input type="checkbox" id="mobile-menu-toggle">
+                    <ul class="nav-list">
+                        <li class="list-item"><a href="index.html" class="nav-link">Главная страница</a></li>
+                        <li class="list-item"><a href="tasks.html" class="nav-link">Мои задачи</a></li>
+                        <li class="list-item list-item-active"><a href="schedule.html" class="nav-link">Расписание</a></li>
+                        <li class="list-item"><a href="profile.html" class="nav-link">Профиль</a></li>
+                    </ul>
+
+                    <label for="mobile-menu-toggle" class="mobile-menu-btn">
+                        <div class="hamburger" id="hamburger">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
+                    </label>
+                </nav>
+            </div>
+        </header>
+
+        <main class="">
+            <section class="hero">
+                <div class="container hero-content">
+                    <div class="flex-center">
+                        <h1>Организуй своё обучение эффективно</h1>
+                        <h2>Student Task Planner поможет вам управлять задачами, расписанием и учебными целями в одном месте. Повысьте свою продуктивность и успеваемость!</h2>
+                        <a href="tasks.html"><button class="btn bg-white mt-1">Начать планирование</button></a>
+                    </div>
+                </div>
+            </section>
+
+            <div class="advantages">
+                <div class="container">
+                    <h2 class="section-title">Почему Student Task Planner?</h2>
+                    <div class="advantages-list grid">
+                        <div class="card">
+                            <div class="feature-icon">
+                                <i class="fas fa-calendar-alt"></i>
+                            </div>
+                            <h3>Умное расписание</h3>
+                            <p>Создавайте и управляйте своим учебным расписанием с напоминаниями о дедлайнах и важных событиях.</p>
+                        </div>
+                        <div class="card">
+                            <div class="feature-icon">
+                                <i class="fas fa-list-check"></i>
+                            </div>
+                            <h3>Управление задачами</h3>
+                            <p>Организуйте учебные задания по приоритетам, категориям и срокам выполнения для максимальной эффективности.</p>
+                        </div>
+                        <div class="card">
+                            <div class="feature-icon">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <h3>Постановка целей</h3>
+                            <p>Ставьте учебные цели, отслеживайте прогресс и отмечайте достижения для поддержания мотивации.</p>
+                        </div>
+                        <div class="card">
+                            <div class="feature-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <h3>Аналитика прогресса</h3>
+                            <p>Получайте детальную статистику по вашей продуктивности и успеваемости для корректировки учебного процесса.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="reviews">
+                <div class="container reviews-container">
+                    <h2 class="section-title">Что говорят студенты</h2>
+                    <div class="reviews-list flex">
+                        <div class="card review-card">
+                            <div class="review-header flex align-center">
+                                <div class="review-avatar">АК</div>
+                                <h3>Анна К.</h3>
+                            </div>
+                            <p>"Это приложение изменило мой подход к учебе! Теперь я всегда знаю, что и когда нужно сделать, и ничего не забываю."</p>
+                        </div>
+                        <div class="card review-card">
+                            <div class="review-header flex align-center">
+                                <div class="review-avatar">МС</div>
+                                <h3>Максим С.</h3>
+                            </div>
+                            <p>"Благодаря Student Task Planner я повысил свою успеваемость на 30%. Теперь у меня есть четкий план на каждый день."</p>
+                        </div>
+                        <div class="card review-card">
+                            <div class="review-header flex align-center">
+                                <div class="review-avatar">ЕЛ</div>
+                                <h3>Елена Л.</h3>
+                            </div>
+                            <p>"Интерфейс очень интуитивный, а функции действительно помогают в учебе. Особенно нравится система напоминаний!"</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="footer-container">
+                    <div class="footer-about">
+                        <div class="footer-logo">
+                            <i class="fas fa-tasks"></i>
+                            <span>Student Task Planner</span>
+                        </div>
+                        <p>Веб-планировщик, помогающий студентам управлять задачами, расписанием и учебными целями.</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-vk"></i></a>
+                            <a href="#"><i class="fab fa-telegram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-links">
+                        <h3>Навигация</h3>
+                        <ul>
+                            <li><a href="index.html">Главная</a></li>
+                            <li><a href="tasks.html">Мои задачи</a></li>
+                            <li class="footer-nav-active"><a href="schedule.html">Расписание</a></li>
+                            <li><a href="profile.html">Профиль</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-contact">
+                        <h3>Контакты</h3>
+                        <p><i class="fas fa-envelope"></i> info@studentplanner.ru</p>
+                        <p><i class="fas fa-phone"></i> <a href="tel:+79991234567" class="tel">+7 (999) 123-45-67</a></p>
+                        <p><i class="fas fa-map-marker-alt"></i> г. Москва, ул. Студенческая, д. 15</p>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2023 Student Task Planner. Все права защищены.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
