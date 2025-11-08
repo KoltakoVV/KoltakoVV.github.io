@@ -445,7 +445,7 @@ footer {
 }
 
 .nav-link {
-    color: var(--text-color-white);
+    color: var(--text-color-dark);
 }
 
 .review-card h4 {
@@ -706,4 +706,5 @@ footer {
 .footer-nav-active {
     color: var(--text-color-orange);
     font-weight: bold;
+
 }
