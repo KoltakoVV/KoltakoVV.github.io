@@ -992,6 +992,12 @@ footer {
         width: 100%;
     }
 
+    .control-filter-schedule {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
     .schedule-wrapper {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
@@ -1019,6 +1025,12 @@ footer {
 
 @media (max-width: 480px) {
     .control-filter {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .control-filter-schedule {
         display: flex;
         flex-direction: column;
         width: 100%;
