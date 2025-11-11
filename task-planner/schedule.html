@@ -41,76 +41,230 @@
         </header>
 
         <main class="">
-            <section class="hero">
-                <div class="container hero-content">
-                    <div class="flex-center">
-                        <h1>Организуй своё обучение эффективно</h1>
-                        <h2>Student Task Planner поможет вам управлять задачами, расписанием и учебными целями в одном месте. Повысьте свою продуктивность и успеваемость!</h2>
-                        <a href="tasks.html"><button class="btn bg-white mt-1">Начать планирование</button></a>
+            <section class="control">
+                <div class="container">
+                    <div class="control-wrapper-schedule flex">
+                        <div class="control-filter">
+                            <button class="btn">Предыдущая неделя</button>
+                            <button class="btn btn-active">Текущая неделя</button>
+                            <button class="btn">Следующая неделя</button>
+                        </div>
                     </div>
                 </div>
             </section>
 
-            <div class="advantages">
+            <section class="schedule">
                 <div class="container">
-                    <h2 class="section-title">Почему Student Task Planner?</h2>
-                    <div class="advantages-list grid">
-                        <div class="card">
-                            <div class="feature-icon">
-                                <i class="fas fa-calendar-alt"></i>
-                            </div>
-                            <h3>Умное расписание</h3>
-                            <p>Создавайте и управляйте своим учебным расписанием с напоминаниями о дедлайнах и важных событиях.</p>
-                        </div>
-                        <div class="card">
-                            <div class="feature-icon">
-                                <i class="fas fa-list-check"></i>
-                            </div>
-                            <h3>Управление задачами</h3>
-                            <p>Организуйте учебные задания по приоритетам, категориям и срокам выполнения для максимальной эффективности.</p>
-                        </div>
-                        <div class="card">
-                            <div class="feature-icon">
-                                <i class="fas fa-bullseye"></i>
-                            </div>
-                            <h3>Постановка целей</h3>
-                            <p>Ставьте учебные цели, отслеживайте прогресс и отмечайте достижения для поддержания мотивации.</p>
-                        </div>
-                        <div class="card">
-                            <div class="feature-icon">
-                                <i class="fas fa-chart-line"></i>
-                            </div>
-                            <h3>Аналитика прогресса</h3>
-                            <p>Получайте детальную статистику по вашей продуктивности и успеваемости для корректировки учебного процесса.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                    <div class="schedule-wrapper">
+                        <div class="schedule-top schedule__monday">Понедельник</div>
+                        <div class="schedule-top schedule__tuesday">Вторник</div>
+                        <div class="schedule-top schedule__wednesday">Среда</div>
+                        <div class="schedule-top schedule__thursday">Четверг</div>
+                        <div class="schedule-top schedule__friday">Пятница</div>
+                        <div class="schedule-top schedule__saturday">Суббота</div>
 
-            <section class="reviews">
-                <div class="container reviews-container">
-                    <h2 class="section-title">Что говорят студенты</h2>
-                    <div class="reviews-list flex">
-                        <div class="card review-card">
-                            <div class="review-header flex align-center">
-                                <div class="review-avatar">АК</div>
-                                <h3>Анна К.</h3>
+                        <div class="monday">
+                            <div class="schedule-top-mobile schedule__monday">Понедельник</div>
+                            <div class="card schedule__item lecture">
+                                <div class="subject-time">9:00-10:30</div>
+                                <div class="subject-name">Математический анализ</div> 
+                                <div class="subject-teach">Проф. Иванов А.В.</div>
+                                <div class="subject-cab">Ауд. 304</div>
                             </div>
-                            <p>"Это приложение изменило мой подход к учебе! Теперь я всегда знаю, что и когда нужно сделать, и ничего не забываю."</p>
+                            <div class="card schedule__item lab">
+                                <div class="subject-time">10:45-12:15</div>
+                                <div class="subject-name">Иностранный язык</div>
+                                <div class="subject-teach">Ст. преп. Джонсон М.</div>
+                                <div class="subject-cab">Ауд. 105</div>
+                            </div>
+                            <div class="card schedule__item seminar">
+                                <div class="subject-time">13:00-14:30</div>
+                                <div class="subject-name">Физика</div>
+                                <div class="subject-teach">Проф. Сидоров П.К.</div>
+                                <div class="subject-cab">Ауд. 210</div>
+                            </div>
+                            <div class="card schedule__item lecture">
+                                <div class="subject-time">14:45-16:15</div>
+                                <div class="subject-name">Программирование</div>
+                                <div class="subject-teach">Доц. Петрова С.М.</div>
+                                <div class="subject-cab">Ауд. 415</div>
+                            </div>
+                            <div class="card schedule__item lab">
+                                <div class="subject-time">16:30-18:00</div>
+                                <div class="subject-name">Физкультура</div>
+                                <div class="subject-teach">Преп. Орлов В.П.</div>
+                                <div class="subject-cab"Спортзал></div>
+                            </div>
                         </div>
-                        <div class="card review-card">
-                            <div class="review-header flex align-center">
-                                <div class="review-avatar">МС</div>
-                                <h3>Максим С.</h3>
+
+                        <div class="tuesday">
+                            <div class="schedule-top-mobile schedule__tuesday">Вторник</div>
+                            <div class="card schedule__item lab">
+                                <div class="subject-time">9:00-10:30</div>
+                                <div class="subject-name">История</div>
+                                <div class="subject-teach">Доц. Козлова Е.Н.</div>
+                                <div class="subject-cab">Ауд. 312</div>
                             </div>
-                            <p>"Благодаря Student Task Planner я повысил свою успеваемость на 30%. Теперь у меня есть четкий план на каждый день."</p>
+                            <div class="card schedule__item lecture">
+                                <div class="subject-time">10:45-12:15</div>
+                                <div class="subject-name">Математический анализ</div>
+                                <div class="subject-teach">Проф. Иванов А.В.</div>
+                                <div class="subject-cab">Ауд. 304</div>
+                            </div>
+                            <div class="card schedule__item seminar">
+                                <div class="subject-time">13:00-14:30</div>
+                                <div class="subject-name">Информатика</div>
+                                <div class="subject-teach">Асс. Волков Д.С.</div>
+                                <div class="subject-cab">Комп. класс 2</div>
+                            </div>
+                            <div class="card schedule__item lab">
+                                <div class="subject-time">14:45-16:15</div>
+                                <div class="subject-name">Физика</div>
+                                <div class="subject-teach">Проф. Сидоров П.К.</div>
+                                <div class="subject-cab">Ауд. 210</div>
+                            </div>
+                            <div class="card schedule__item lecture">
+                                <div class="subject-time">16:30-18:00</div>
+                                <div class="subject-name">Программирование</div>
+                                <div class="subject-teach">Доц. Смирнов И.П.</div>
+                                <div class="subject-cab">Ауд. 208</div>
+                            </div>
                         </div>
-                        <div class="card review-card">
-                            <div class="review-header flex align-center">
-                                <div class="review-avatar">ЕЛ</div>
-                                <h3>Елена Л.</h3>
+
+                        <div class="wednesday">
+                            <div class="schedule-top-mobile schedule__wednesday">Среда</div>
+                            <div class="card schedule__item seminar">
+                                <div class="subject-time">9:00-10:30</div>
+                                <div class="subject-name">Программирование</div>
+                                <div class="subject-teach">Доц. Петрова С.М.</div>
+                                <div class="subject-cab">Ауд. 415</div>
                             </div>
-                            <p>"Интерфейс очень интуитивный, а функции действительно помогают в учебе. Особенно нравится система напоминаний!"</p>
+                            <div class="card schedule__item lab">
+                                <div class="subject-time">10:45-12:15</div>
+                                <div class="subject-name">Математический анализ</div>
+                                <div class="subject-teach">Проф. Иванов А.В.</div>
+                                <div class="subject-cab">Ауд. 304</div>
+                            </div>
+                            <div class="card schedule__item lecture">
+                                <div class="subject-time">13:00-14:30</div>
+                                <div class="subject-name">Иностранный язык</div>
+                                <div class="subject-teach">Ст. преп. Джонсон М.</div>
+                                <div class="subject-cab">Ауд. 105</div>
+                            </div>
+                            <div class="card schedule__item seminar">
+                                <div class="subject-time">14:45-16:15</div>
+                                <div class="subject-name">Философия</div>
+                                <div class="subject-teach">Проф. Никитин С.В.</div>
+                                <div class="subject-cab">Ауд. 401</div>
+                            </div>
+                            <div class="card schedule__item lab">
+                                <div class="subject-time">16:30-18:00</div>
+                                <div class="subject-name">Информатика</div>
+                                <div class="subject-teach">Асс. Волков Д.С.</div>
+                                <div class="subject-cab">Комп. класс 1</div>
+                            </div>
+                        </div>
+
+                        <div class="thursday">
+                            <div class="schedule-top-mobile schedule__thursday">Четверг</div>
+                            <div class="card schedule__item lecture">
+                                <div class="subject-time">9:00-10:30</div>
+                                <div class="subject-name">Физика</div>
+                                <div class="subject-teach">Проф. Сидоров П.К.</div>
+                                <div class="subject-cab">Ауд. 210</div>
+                            </div>
+                            <div class="card schedule__item seminar">
+                                <div class="subject-time">10:45-12:15</div>
+                                <div class="subject-name">Программирование</div>
+                                <div class="subject-teach">Доц. Петрова С.М.</div>
+                                <div class="subject-cab">Ауд. 415</div>
+                            </div>
+                            <div class="card schedule__item lab">
+                                <div class="subject-time">13:00-14:30</div>
+                                <div class="subject-name">История</div>
+                                <div class="subject-teach">Доц. Козлова Е.Н.</div>
+                                <div class="subject-cab">Ауд. 312</div>
+                            </div>
+                            <div class="card schedule__item lecture">
+                                <div class="subject-time">14:45-16:15</div>
+                                <div class="subject-name">Математический анализ</div>
+                                <div class="subject-teach">Проф. Иванов А.В.</div>
+                                <div class="subject-cab">Ауд. 304</div>
+                            </div>
+                            <div class="card schedule__item seminar">
+                                <div class="subject-time">16:30-18:00</div>
+                                <div class="subject-name">Психология</div>
+                                <div class="subject-teach">Доц. Романова О.Л.</div>
+                                <div class="subject-cab">Ауд. 215</div>
+                            </div>
+                        </div>
+
+                        <div class="friday">
+                            <div class="schedule-top-mobile schedule__friday">Пятница</div>
+                            <div class="card schedule__item lab">
+                                <div class="subject-time">9:00-10:30</div>
+                                <div class="subject-name">Информатика</div>
+                                <div class="subject-teach">Асс. Волков Д.С.</div>
+                                <div class="subject-cab">Комп. класс 2</div>
+                            </div>
+                            <div class="card schedule__item seminar">
+                                <div class="subject-time">10:45-12:15</div>
+                                <div class="subject-name">Физика</div>
+                                <div class="subject-teach">Проф. Сидоров П.К.</div>
+                                <div class="subject-cab">Ауд. 210</div>
+                            </div>
+                            <div class="card schedule__item lecture">
+                                <div class="subject-time">13:00-14:30</div>
+                                <div class="subject-name">Иностранный язык</div>
+                                <div class="subject-teach">Ст. преп. Джонсон М.</div>
+                                <div class="subject-cab">Ауд. 105</div>
+                            </div>
+                            <div class="card schedule__item lab">
+                                <div class="subject-time">14:45-16:15</div>
+                                <div class="subject-name">Программирование</div>
+                                <div class="subject-teach">Доц. Смирнов И.П.</div>
+                                <div class="subject-cab">Ауд. 208</div>
+                            </div>
+                            <div class="card schedule__item seminar">
+                                <div class="subject-time">16:30-18:00</div>
+                                <div class="subject-name">Физкультура</div>
+                                <div class="subject-teach">Преп. Орлов В.П.</div>
+                                <div class="subject-cab">Спортзал</div>
+                            </div>
+                        </div>
+
+                        <div class="saturday">
+                            <div class="schedule-top-mobile schedule__saturday">Суббота</div>
+                            <div class="card schedule__item seminar">
+                                <div class="subject-time">9:00-10:30</div>
+                                <div class="subject-name">Программирование</div>
+                                <div class="subject-teach">Доц. Петрова С.М</div>
+                                <div class="subject-cab">Комп. класс 1</div>
+                            </div>
+                            <div class="card schedule__item lecture">
+                                <div class="subject-time">10:45-12:15</div>
+                                <div class="subject-name">Физика</div>
+                                <div class="subject-teach">Проф. Сидоров П.К.</div>
+                                <div class="subject-cab"> Лаб. 102</div>
+                            </div>
+                            <div class="card schedule__item lab">
+                                <div class="subject-time">13:00-14:30</div>
+                                <div class="subject-name">Математический анализ</div>
+                                <div class="subject-teach">Проф. Иванов А.В.</div>
+                                <div class="subject-cab"> Ауд. 304</div>
+                            </div>
+                            <div class="card schedule__item seminar">
+                                <div class="subject-time">14:45-16:15</div>
+                                <div class="subject-name">Веб-разработка</div>
+                                <div class="subject-teach">Асс. Волков Д.С.</div>
+                                <div class="subject-cab">Комп. класс 2</div>
+                            </div>
+                            <div class="card schedule__item lecture">
+                                <div class="subject-time">16:30-18:00</div>
+                                <div class="subject-name">Научный кружок</div>
+                                <div class="subject-teach">Доц. Козлова Е.Н.</div>
+                                <div class="subject-cab">Ауд. 215</div>
+                            </div>
                         </div>
                     </div>
                 </div>
