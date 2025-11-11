@@ -726,6 +726,7 @@ footer {
 
 .control-wrapper {
     justify-content: space-between;
+    align-items: center;
 }
 
 .search-input {
@@ -850,6 +851,10 @@ footer {
     .search-input {
         width: 100%;
     }
+
+    .control-button button {
+        width: 100%;
+    }
 }
 
 .control-wrapper-schedule {
@@ -879,10 +884,6 @@ footer {
     grid-template-rows: repeat(5, 1fr);
     gap: 1px;
 }
-
-/* .monday, .tuesday, .wednesday, .thursday, .friday, .saturday .card {
-    width: 193.38px;
-} */
 
 .btn-active {
     color: var(--text-color-white);
@@ -976,12 +977,20 @@ footer {
     }
 }
 
+.control-filter {
+    background-color: var(--text-color-white);
+    border-radius: 8px;
+    margin-bottom: .2rem;
+    padding: .5rem;
+    box-shadow: var(--shadow);
+}
+
 @media (max-width: 768px) {
     .control-filter {
         display: flex;
         flex-direction: column;
     }
-    
+
     .schedule-wrapper {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
