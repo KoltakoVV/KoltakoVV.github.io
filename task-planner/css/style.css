@@ -989,6 +989,7 @@ footer {
     .control-filter {
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
 
     .schedule-wrapper {
@@ -1020,6 +1021,7 @@ footer {
     .control-filter {
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
 
     .schedule-wrapper {
