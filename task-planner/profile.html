@@ -41,76 +41,52 @@
         </header>
 
         <main class="">
-            <section class="hero">
-                <div class="container hero-content">
-                    <div class="flex-center">
-                        <h1>Организуй своё обучение эффективно</h1>
-                        <h2>Student Task Planner поможет вам управлять задачами, расписанием и учебными целями в одном месте. Повысьте свою продуктивность и успеваемость!</h2>
-                        <a href="tasks.html"><button class="btn bg-white mt-1">Начать планирование</button></a>
+            <section class="profile">
+                <div class="container">
+                    <div class="profile-wrapper card">
+                        <div class="profile-card-avatar">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M320 312C386.3 312 440 258.3 440 192C440 125.7 386.3 72 320 72C253.7 72 200 125.7 200 192C200 258.3 253.7 312 320 312zM290.3 368C191.8 368 112 447.8 112 546.3C112 562.7 125.3 576 141.7 576L498.3 576C514.7 576 528 562.7 528 546.3C528 447.8 448.2 368 349.7 368L290.3 368z"/></svg>
+                        </div>
+                        <div class="profile-card-info">
+                            <h3>Иван Петров</h3>
+                            <p><b>Факультет</b>: Информационные технологии</p>
+                            <p><b>Курс</b>: 3</p>
+                            <p><b>E-mail</b>: ivan.petrov@example.com</p>
+                            <div class="profile-card-info-button-edit">
+                                <button class="btn btn-edit">Редактировать</button>
+                                <button class="btn btn-exit">Выход</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
 
-            <div class="advantages">
+            <section class="achief">
                 <div class="container">
-                    <h2 class="section-title">Почему Student Task Planner?</h2>
-                    <div class="advantages-list grid">
-                        <div class="card">
-                            <div class="feature-icon">
-                                <i class="fas fa-calendar-alt"></i>
-                            </div>
-                            <h3>Умное расписание</h3>
-                            <p>Создавайте и управляйте своим учебным расписанием с напоминаниями о дедлайнах и важных событиях.</p>
-                        </div>
-                        <div class="card">
-                            <div class="feature-icon">
-                                <i class="fas fa-list-check"></i>
-                            </div>
-                            <h3>Управление задачами</h3>
-                            <p>Организуйте учебные задания по приоритетам, категориям и срокам выполнения для максимальной эффективности.</p>
-                        </div>
-                        <div class="card">
-                            <div class="feature-icon">
-                                <i class="fas fa-bullseye"></i>
-                            </div>
-                            <h3>Постановка целей</h3>
-                            <p>Ставьте учебные цели, отслеживайте прогресс и отмечайте достижения для поддержания мотивации.</p>
-                        </div>
-                        <div class="card">
-                            <div class="feature-icon">
-                                <i class="fas fa-chart-line"></i>
-                            </div>
-                            <h3>Аналитика прогресса</h3>
-                            <p>Получайте детальную статистику по вашей продуктивности и успеваемости для корректировки учебного процесса.</p>
-                        </div>
+                    <h2 class="section-title achief-title">Мои достижения</h2>
+                    <div class="achief-wrappper">
+                        <div class="card achief-card">10 задач выполнено</div>
+                        <div class="card achief-card">5 дней без пропусков</div>
+                        <div class="card achief-card">Лучший в группе</div>
+                        <div class="card achief-card">3 проекта завершено</div>
+                        <div class="card achief-card">100% посещаемость</div>
+                        <div class="card achief-card">Участник хакатона</div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <section class="reviews">
-                <div class="container reviews-container">
-                    <h2 class="section-title">Что говорят студенты</h2>
-                    <div class="reviews-list flex">
-                        <div class="card review-card">
-                            <div class="review-header flex align-center">
-                                <div class="review-avatar">АК</div>
-                                <h3>Анна К.</h3>
+            <section class="setting-interface">
+                <div class="container">
+                    <div class="setting-interface-wrapper">
+                        <div class="card setting-interface-card">
+                            <h3>Настройки интерфейса</h3>
+                            <div class="theme-toggle">
+                                <label class="theme-switch">
+                                    <input type="checkbox" id="theme-toggle">
+                                    <span class="slider"></span>
+                                </label>
+                                <span class="theme-label">Светлая / Тёмная тема</span>
                             </div>
-                            <p>"Это приложение изменило мой подход к учебе! Теперь я всегда знаю, что и когда нужно сделать, и ничего не забываю."</p>
-                        </div>
-                        <div class="card review-card">
-                            <div class="review-header flex align-center">
-                                <div class="review-avatar">МС</div>
-                                <h3>Максим С.</h3>
-                            </div>
-                            <p>"Благодаря Student Task Planner я повысил свою успеваемость на 30%. Теперь у меня есть четкий план на каждый день."</p>
-                        </div>
-                        <div class="card review-card">
-                            <div class="review-header flex align-center">
-                                <div class="review-avatar">ЕЛ</div>
-                                <h3>Елена Л.</h3>
-                            </div>
-                            <p>"Интерфейс очень интуитивный, а функции действительно помогают в учебе. Особенно нравится система напоминаний!"</p>
                         </div>
                     </div>
                 </div>
